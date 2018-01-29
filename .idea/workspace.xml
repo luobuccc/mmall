@@ -7,42 +7,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b52a63c8-67a6-4eee-93ca-a24881ab2d60" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/CartMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/CategoryMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/OrderItemMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/OrderMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/PayInfoMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/ProductMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/ShippingMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/UserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Cart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Category.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/OrderItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/PayInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Product.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Shipping.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/applicationContext-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/datasource.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/CartMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/CategoryMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/OrderItemMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/OrderMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/PayInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/ProductMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/ShippingMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mmall.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mybatis-generator-config_1_0.dtd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/.idea/misc.xml" afterPath="$PROJECT_DIR$/../mmal/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/Const.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/ResponseCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/ServerResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/TokenCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/controller/portal/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/IUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/MD5Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/PropertiesUtil.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mmal/target/mmal.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mmal/target/mmal/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../mmal/target/mmal/index.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mmal/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/UserMapper.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/applicationContext-datasource.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/datasource.properties" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/datasource.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/CartMapper.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/CartMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/CategoryMapper.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/CategoryMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/OrderItemMapper.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/OrderItemMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/OrderMapper.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/OrderMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/PayInfoMapper.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/PayInfoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/ProductMapper.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/ProductMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/ShippingMapper.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/ShippingMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/UserMapper.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mappers/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/mmall.properties" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mmall.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/mybatis-generator-config_1_0.dtd" afterPath="$PROJECT_DIR$/../mmal/src/main/resources/mybatis-generator-config_1_0.dtd" />
     </list>
     <ignored path="$PROJECT_DIR$/../mmal/out/" />
     <ignored path="$PROJECT_DIR$/../mmal/target/" />
@@ -67,19 +60,43 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mmal" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/logback.xml">
+      <file leaf-file-name="Const.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/Const.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+            <state relative-caret-position="176">
+              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ResponseCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/ResponseCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding>
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -110,14 +127,23 @@
         <option value="$PROJECT_DIR$/../mmal/src/main/resources/mappers/PayInfoMapper.xml" />
         <option value="$PROJECT_DIR$/../mmal/src/main/resources/mappers/ProductMapper.xml" />
         <option value="$PROJECT_DIR$/../mmal/src/main/resources/mappers/ShippingMapper.xml" />
-        <option value="$PROJECT_DIR$/../mmal/src/main/resources/mappers/UserMapper.xml" />
         <option value="$PROJECT_DIR$/../mmal/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/../mmal/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../mmal/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/../mmal/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/../mmal/src/main/resources/applicationContext-datasource.xml" />
         <option value="$PROJECT_DIR$/../mmal/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/../mmal/src/main/resources/mmall.properties" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/resources/applicationContext-datasource.xml" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/ServerResponse.java" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/MD5Util.java" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/Const.java" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/TokenCache.java" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/resources/mappers/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/controller/portal/UserController.java" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/ResponseCode.java" />
       </list>
     </option>
   </component>
@@ -170,8 +196,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="746" />
-    <option name="y" value="59" />
+    <option name="x" value="347" />
+    <option name="y" value="81" />
     <option name="width" value="1212" />
     <option name="height" value="1048" />
   </component>
@@ -269,8 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,29 +333,64 @@
               <item name="mmal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mmal" type="b2602c69:ProjectViewProjectNode" />
               <item name="mmal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mmal" type="b2602c69:ProjectViewProjectNode" />
               <item name="mmal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,6 +406,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\mmal\src\main\java\com\mmall\util" />
       <recent name="H:\mmal\src\main\resources" />
       <recent name="H:\mmal\src\main\webapp\WEB-INF" />
     </key>
@@ -564,23 +624,35 @@
       <updated>1516965338997</updated>
       <workItem from="1516965343448" duration="2319000" />
       <workItem from="1517035241498" duration="6645000" />
-      <workItem from="1517042029448" duration="2632000" />
+      <workItem from="1517042029448" duration="3421000" />
+      <workItem from="1517116909713" duration="8018000" />
+      <workItem from="1517221103307" duration="3839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11596000" />
+    <option name="totallyTimeSpent" value="24242000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28554642" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2773208" sideWeight="0.26233906" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24324325" sideWeight="0.4892704" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.152897" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.152897" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.097639486" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14324035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12124463" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -588,28 +660,28 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1443133" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24089307" sideWeight="0.49570817" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27262044" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25851938" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27497062" sideWeight="0.49356222" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2247854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28554642" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30552292" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24324325" sideWeight="0.49356222" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2773208" sideWeight="0.73766094" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26321974" sideWeight="0.5697425" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2247854" sideWeight="0.49380806" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26321974" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2247854" sideWeight="0.50619197" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2247854" sideWeight="0.50619197" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2247854" sideWeight="0.50619197" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.346651" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,11 +699,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/CartMapper.java">
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/controller/portal/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2806#2807#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/CartMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -666,31 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1207">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/mappers/CategoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="115" column="25" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
-          <folding>
-            <marker date="1517041140581" expanded="true" signature="1080:1190" ph="select from mmall_category" />
-            <marker date="1517041140581" expanded="true" signature="1277:1341" ph="delete from " />
-            <marker date="1517041140581" expanded="true" signature="1422:1704" ph="insert into mmall_category... " />
-            <marker date="1517041140581" expanded="true" signature="3047:3670" ph="update mmall... " />
-            <marker date="1517041140581" expanded="true" signature="3763:4080" ph="update mmall... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,13 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="162" column="25" lean-forward="false" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
-          <folding>
-            <marker date="1517041184893" expanded="true" signature="1504:1616" ph="select from mmall_order_item" />
-            <marker date="1517041184893" expanded="true" signature="1703:1769" ph="delete from " />
-            <marker date="1517041184893" expanded="true" signature="1851:2359" ph="insert into mmall_order_item... " />
-            <marker date="1517041184893" expanded="true" signature="4403:5485" ph="update mmall... " />
-            <marker date="1517041184893" expanded="true" signature="5579:6135" ph="update mmall... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,13 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="197" column="25" lean-forward="false" selection-start-line="197" selection-start-column="25" selection-end-line="197" selection-end-column="25" />
-          <folding>
-            <marker date="1517041228849" expanded="true" signature="1733:1840" ph="select from mmall_order" />
-            <marker date="1517041228849" expanded="true" signature="1927:1988" ph="delete from " />
-            <marker date="1517041228849" expanded="true" signature="2066:2683" ph="insert into mmall_order... " />
-            <marker date="1517041228849" expanded="true" signature="5122:6470" ph="update mmall... " />
-            <marker date="1517041228849" expanded="true" signature="6560:7232" ph="update mmall... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,13 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="127" column="25" lean-forward="false" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
-          <folding>
-            <marker date="1517041267455" expanded="true" signature="1212:1322" ph="select from mmall_pay_info" />
-            <marker date="1517041267455" expanded="true" signature="1409:1473" ph="delete from " />
-            <marker date="1517041267455" expanded="true" signature="1553:1916" ph="insert into mmall_pay_info... " />
-            <marker date="1517041267455" expanded="true" signature="3483:4274" ph="update mmall... " />
-            <marker date="1517041267455" expanded="true" signature="4366:4770" ph="update mmall... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,13 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="175" column="25" lean-forward="false" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
-          <folding>
-            <marker date="1517041306429" expanded="true" signature="1528:1637" ph="select from mmall_product" />
-            <marker date="1517041306429" expanded="true" signature="1724:1787" ph="delete from " />
-            <marker date="1517041306429" expanded="true" signature="1867:2372" ph="insert into mmall_product... " />
-            <marker date="1517041306429" expanded="true" signature="4457:5568" ph="update mmall... " />
-            <marker date="1517041306429" expanded="true" signature="5660:6206" ph="update mmall... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,27 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="175" column="25" lean-forward="false" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
-          <folding>
-            <marker date="1517041344079" expanded="true" signature="1642:1752" ph="select from mmall_shipping" />
-            <marker date="1517041344079" expanded="true" signature="1839:1903" ph="delete from " />
-            <marker date="1517041344079" expanded="true" signature="1984:2602" ph="insert into mmall_shipping... " />
-            <marker date="1517041344079" expanded="true" signature="4908:6185" ph="update mmall... " />
-            <marker date="1517041344079" expanded="true" signature="6278:6937" ph="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/mappers/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="150" column="25" lean-forward="false" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
-          <folding>
-            <marker date="1517041394267" expanded="true" signature="1323:1429" ph="select from mmall_user" />
-            <marker date="1517041394267" expanded="true" signature="1516:1576" ph="delete from " />
-            <marker date="1517041394267" expanded="true" signature="1653:2053" ph="insert into mmall_user... " />
-            <marker date="1517041394267" expanded="true" signature="3814:4719" ph="update mmall... " />
-            <marker date="1517041394267" expanded="true" signature="4808:5250" ph="update mmall... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,25 +806,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/mappers/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1363">
-          <caret line="35" column="2" lean-forward="false" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-          <folding>
-            <marker date="1517041082199" expanded="true" signature="1083:1189" ph="select from mmall_cart" />
-            <marker date="1517041082199" expanded="true" signature="1276:1336" ph="delete from " />
-            <marker date="1517041082199" expanded="true" signature="1413:1701" ph="insert into mmall_cart... " />
-            <marker date="1517041082199" expanded="true" signature="3048:3680" ph="update mmall... " />
-            <marker date="1517041082199" expanded="true" signature="3769:4092" ph="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-704">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,22 +824,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-241">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mmal/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="396">
           <caret line="36" column="66" lean-forward="true" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/generatorConfig.xml">
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="-154">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/mappers/CartMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="35" column="2" lean-forward="false" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/applicationContext-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="84" column="11" lean-forward="false" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -843,48 +884,156 @@
     <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/datasource.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding />
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/applicationContext-datasource.xml">
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1027">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="1738">
+          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/mmall.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-          <folding />
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/mybatis-generator-config_1_0.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1782">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="297">
           <caret line="67" column="20" lean-forward="false" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/ServerResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/PropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="104" lean-forward="false" selection-start-line="19" selection-start-column="104" selection-end-line="19" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/TokenCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#810#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="88" lean-forward="false" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="182" column="34" lean-forward="true" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
+          <folding>
+            <marker date="1517224605836" expanded="true" signature="1394:1510" ph="select from mmall_user" />
+            <marker date="1517224605836" expanded="true" signature="1604:1668" ph="delete from " />
+            <marker date="1517224605836" expanded="true" signature="1752:2163" ph="insert into mmall_user... " />
+            <marker date="1517224605836" expanded="true" signature="4332:5419" ph="update mmall... " />
+            <marker date="1517224605836" expanded="true" signature="5515:5981" ph="update mmall... " />
+            <marker date="1517224605836" expanded="true" signature="6076:6142" ph="select count... mmall_user" />
+            <marker date="1517224605836" expanded="true" signature="6234:6297" ph="select count... mmall_user" />
+            <marker date="1517224605836" expanded="true" signature="6396:6462" ph="select from mmall_user... " />
+            <marker date="1517224605836" expanded="true" signature="6396:6530" ph="select from mmall_user" />
+            <marker date="1517224605836" expanded="true" signature="6639:6713" ph="select quest... mmall_user" />
+            <marker date="1517224605836" expanded="true" signature="6803:6939" ph="select count... mmall_user" />
+            <marker date="1517224605836" expanded="true" signature="7025:7131" ph="update mmall... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="127" column="9" lean-forward="false" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/controller/portal/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2530">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="e#2806#2807#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/ResponseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
