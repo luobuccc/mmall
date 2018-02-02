@@ -97,7 +97,9 @@ public class FTPUtil {
                 uploaded = false;
                 logger.error("上传文件异常", e);
             } finally {
-                fileInputStream.close();
+                if (fileInputStream != null) {
+                    fileInputStream.close();
+                }
                 ftpClient.disconnect();
             }
         }
