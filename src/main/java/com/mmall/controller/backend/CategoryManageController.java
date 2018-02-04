@@ -28,6 +28,14 @@ public class CategoryManageController {
     @Autowired
     private ICategoryService iCategoryService;
 
+    /**
+     * 添加商品类别
+     *
+     * @param session
+     * @param categoryName
+     * @param parentId
+     * @return
+     */
     @RequestMapping(value = "add_category.do", method = RequestMethod.GET)
     @ResponseBody
     public ServerResponse addCategory(HttpSession session, String categoryName, @RequestParam(value = "parentId", defaultValue = "0") int parentId) {
@@ -42,6 +50,14 @@ public class CategoryManageController {
         }
     }
 
+    /**
+     * 修改类别名称
+     *
+     * @param session
+     * @param categoryId
+     * @param categoryName
+     * @return
+     */
     @RequestMapping(value = "set_category_name.do", method = RequestMethod.GET)
     @ResponseBody
     public ServerResponse setCategoryName(HttpSession session, Integer categoryId, String categoryName) {
@@ -56,6 +72,13 @@ public class CategoryManageController {
         }
     }
 
+    /**
+     * 获取商品子类
+     *
+     * @param session
+     * @param categoryId
+     * @return
+     */
     @RequestMapping(value = "get_category.do", method = RequestMethod.GET)
     @ResponseBody
     public ServerResponse getChildrenParallelCategory(HttpSession session, @RequestParam(value = "categoryId", defaultValue = "0") Integer categoryId) {
@@ -70,6 +93,13 @@ public class CategoryManageController {
         }
     }
 
+    /**
+     * 获取商品所有子类
+     *
+     * @param session
+     * @param categoryId
+     * @return
+     */
     @RequestMapping(value = "get_deep_category.do", method = RequestMethod.GET)
     @ResponseBody
     public ServerResponse getCategoryAndDeepChildrenCategory(HttpSession session, @RequestParam(value = "categoryId", defaultValue = "0") Integer categoryId) {

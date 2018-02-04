@@ -41,6 +41,4 @@ public class DateTimeUtil {
         DateTime dateTime = new DateTime(date);
         return dateTime.toString(formatStr);
     }
-
-
 }

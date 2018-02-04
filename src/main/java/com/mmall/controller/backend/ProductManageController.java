@@ -39,6 +39,13 @@ public class ProductManageController {
     @Autowired
     private IFileService iFileService;
 
+    /**
+     * 保存商品信息
+     *
+     * @param session
+     * @param product
+     * @return
+     */
     @RequestMapping("save.do")
     @ResponseBody
     public ServerResponse productSave(HttpSession session, Product product) {
@@ -53,6 +60,14 @@ public class ProductManageController {
         }
     }
 
+    /**
+     * 设置商品状态
+     *
+     * @param session
+     * @param productId
+     * @param status
+     * @return
+     */
     @RequestMapping("set_sale_status.do")
     @ResponseBody
     public ServerResponse setSaleStatus(HttpSession session, Integer productId, Integer status) {
@@ -67,6 +82,13 @@ public class ProductManageController {
         }
     }
 
+    /**
+     * 获取商品详情
+     *
+     * @param session
+     * @param productId
+     * @return
+     */
     @RequestMapping("detail.do")
     @ResponseBody
     public ServerResponse getDetail(HttpSession session, Integer productId) {
@@ -95,6 +117,16 @@ public class ProductManageController {
         }
     }
 
+    /**
+     * 搜索商品
+     *
+     * @param session
+     * @param productName
+     * @param productId
+     * @param pageNum
+     * @param pageSize
+     * @return
+     */
     @RequestMapping("search.do")
     @ResponseBody
     public ServerResponse getList(HttpSession session, String productName, Integer productId, @RequestParam(value = "pageNum", defaultValue = "1") int pageNum, @RequestParam(value = "pageSize", defaultValue = "10") int pageSize) {
@@ -109,6 +141,14 @@ public class ProductManageController {
         }
     }
 
+    /**
+     * 上传商品图片
+     *
+     * @param session
+     * @param file
+     * @param request
+     * @return
+     */
     @RequestMapping("upload.do")
     @ResponseBody
     public ServerResponse upload(HttpSession session, @RequestParam(value = "upload_file", required = false) MultipartFile file, HttpServletRequest request) {
