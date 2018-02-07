@@ -117,9 +117,7 @@ public class ProductServiceImpl implements IProductService {
         if (StringUtils.isNotBlank(productName)) {
             productName = new StringBuilder().append("%").append(productName).append("%").toString();
         }
-
         List<Product> productList = productMapper.selectByNameAndProductId(productName, productId);
-
         List<ProductListVo> productListVoList = Lists.newArrayList();
         for (Product productItem : productList) {
             ProductListVo productListVo = assembleProductListVo(productItem);
