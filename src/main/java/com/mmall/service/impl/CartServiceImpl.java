@@ -85,7 +85,7 @@ public class CartServiceImpl implements ICartService {
 
     @Override
     public ServerResponse<CartVo> selectOrUnselected(Integer userId, Integer productId, Integer checked) {
-        cartMapper.checkedOrUncheckedProduct(userId, productId,checked);
+        cartMapper.checkedOrUncheckedProduct(userId, productId, checked);
         return this.list(userId);
     }
 
