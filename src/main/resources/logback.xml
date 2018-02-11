@@ -24,7 +24,6 @@
         </encoder>
     </appender>
 
-
     <appender name="error" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--<File>d:/mmalllog/error.log</File>-->
         <File>E:/apache-tomcat-7.0.81/logs/mmall.logerror.log</File>
