@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b52a63c8-67a6-4eee-93ca-a24881ab2d60" name="Default" comment="" />
+    <list default="true" id="b52a63c8-67a6-4eee-93ca-a24881ab2d60" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mmal/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/../mmal/out/" />
     <ignored path="$PROJECT_DIR$/../mmal/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Category.java" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/a.java" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/MD5Util.java" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/vo/ProductDetailVo.java" />
@@ -132,6 +133,7 @@
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/IOrderService.java" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/controller/portal/OrderController.java" />
+        <option value="$PROJECT_DIR$/../mmal/.gitignore" />
       </list>
     </option>
   </component>
@@ -661,7 +663,7 @@
       <workItem from="1518172197580" duration="968000" />
       <workItem from="1518317682968" duration="1258000" />
       <workItem from="1518343849569" duration="20000" />
-      <workItem from="1518343923748" duration="3831000" />
+      <workItem from="1518343923748" duration="4258000" />
     </task>
     <servers />
   </component>
@@ -683,7 +685,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86189000" />
+    <option name="totallyTimeSpent" value="86616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,7 +700,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5957697" sideWeight="0.28165236" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40305522" sideWeight="0.4860515" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24324325" sideWeight="0.4892704" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24441834" sideWeight="0.4388412" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.152897" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -719,9 +721,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27262044" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24324325" sideWeight="0.49356222" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5957697" sideWeight="0.71834767" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5957697" sideWeight="0.71834767" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2773208" sideWeight="0.73766094" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4253819" sideWeight="0.51609445" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40305522" sideWeight="0.5139485" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23015021" sideWeight="0.7262831" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26321974" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2247854" sideWeight="0.27371696" order="2" side_tool="true" content_ui="tabs" />
@@ -756,13 +758,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/ServerResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/TokenCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1146,6 +1141,14 @@
           <folding>
             <element signature="e#3540#3553#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
