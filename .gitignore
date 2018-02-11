@@ -30,3 +30,6 @@ target/
 #system ignore
 Thumbs.db
 .DS_Store
+
+#alipay file
+zfbinfo.properties
