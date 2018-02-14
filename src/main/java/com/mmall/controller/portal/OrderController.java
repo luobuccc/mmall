@@ -32,6 +32,17 @@ public class OrderController {
     @Autowired
     IOrderService iOrderService;
 
+    @RequestMapping("create.do")
+    @ResponseBody
+    public ServerResponse create(HttpSession session, Integer shippingId) {
+        User user = (User) session.getAttribute(Const.CURRENT_USER);
+        if (user == null) {
+            return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(), ResponseCode.NEED_LOGIN.getDesc());
+        }
+        return iOrderService.createOrder(user.getId(), shippingId);
+    }
+
+
     @RequestMapping("pay.do")
     @ResponseBody
     public ServerResponse pay(HttpSession session, Long orderNo, HttpServletRequest request) {
@@ -60,6 +71,9 @@ public class OrderController {
         logger.info("支付宝回调,sign：{},trade_status:{},参数:{}", params.get("sign"), params.get("trade_status"), params.toString());
         params.remove("sign_type");
         try {
+            if (params.size() <= 0) {
+                return Const.AlipayCallback.RESPONSE_FAILED;
+            }
             boolean alipayRSACheckedV2 = AlipaySignature.rsaCheckV2(params, Configs.getAlipayPublicKey(), "utf-8", Configs.getSignType());
             if (!alipayRSACheckedV2) {
                 return ServerResponse.createByErrorMessage("非法请求，验证不通过");
