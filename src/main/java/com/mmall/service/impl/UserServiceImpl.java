@@ -28,7 +28,7 @@ public class UserServiceImpl implements IUserService {
         if (resultCount == 0) {
             return ServerResponse.createByErrorMessage("用户名不存在");
         }
-        //todo 密码登录MD5
+        //密码登录MD5
         String md5password = MD5Util.MD5EncodeUtf8(password);
         User user = userMapper.selectLogin(username, md5password);
         if (user == null) {
@@ -49,7 +49,7 @@ public class UserServiceImpl implements IUserService {
             return validResponse;
         }
         user.setRole(Const.Role.ROLE_CUSTOMER);
-        //todo MD5加密
+        //MD5加密
         user.setPassword(MD5Util.MD5EncodeUtf8(user.getPassword()));
         int resultCount = userMapper.insert(user);
         if (resultCount == 0) {
