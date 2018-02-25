@@ -181,4 +181,11 @@
             #{item.productName},#{item.productImage},#{item.currentUnitPrice},#{item.quantity},#{item.totalPrice},now(),now())
         </foreach>
     </insert>
+    <select id="getByOrderNo" parameterType="long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from mmall_order_item
+        where order_no=#{orderNo}
+        order by create_time desc
+    </select>
 </mapper>
