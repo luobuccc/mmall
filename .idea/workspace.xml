@@ -7,46 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b52a63c8-67a6-4eee-93ca-a24881ab2d60" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mmal/target/mmal/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources.dev/datasource.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources.dev/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources.dev/mmall.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources.prod/datasource.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources.prod/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mmal/src/main/resources.prod/mmall.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mmal/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/mmal.iml" afterPath="$PROJECT_DIR$/../mmal/mmal.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/pom.xml" afterPath="$PROJECT_DIR$/../mmal/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/TokenCache.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/TokenCache.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/controller/portal/OrderController.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/controller/portal/OrderController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Cart.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Cart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Category.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Order.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Order.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/OrderItem.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/OrderItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/PayInfo.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/PayInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Product.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Shipping.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Shipping.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/User.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/FileServiceImpl.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/FileServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/OrderServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/FTPUtil.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/FTPUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/PropertiesUtil.java" afterPath="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/PropertiesUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/admin/resource/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/admin/resource/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/admin/resource/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/admin/resource/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/admin/view/index.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/admin/view/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/resource/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/resource/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/about.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/cart.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/detail.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/index.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/list.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/order-confirm.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/order-confirm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/order-detail.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/order-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/order-list.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/order-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/payment.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/payment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/result.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/result.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-center-update.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-center-update.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-center.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-center.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-login.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-pass-reset.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-pass-reset.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-pass-update.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-pass-update.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-register.html" afterPath="$PROJECT_DIR$/../mmal/src/main/webapp/dist/view/user-register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mmal/src/test/java/com/mmall/test/BigDecimalTest.java" afterPath="$PROJECT_DIR$/../mmal/src/test/java/com/mmall/test/BigDecimalTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/datasource.properties" afterPath="$PROJECT_DIR$/../mmal/src/main/resources.beta/datasource.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/../mmal/src/main/resources.beta/logback.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../mmal/src/main/resources/mmall.properties" afterPath="$PROJECT_DIR$/../mmal/src/main/resources.beta/mmall.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/../mmal/out/" />
     <ignored path="$PROJECT_DIR$/../mmal/target/" />
@@ -85,18 +57,7 @@
     <favorites_list name="mmal" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Category.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Category.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,9 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/vo/CartVo.java" />
-        <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/vo/CartProductVo.java" />
         <option value="$PROJECT_DIR$/../mmal/src/test/java/com/mmall/test/BigDecmialTest.java" />
         <option value="$PROJECT_DIR$/../mmal/src/test/java/com/mmall/test/BigDecimalTest.java" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/BigDecimalUtil.java" />
@@ -173,7 +131,6 @@
         <option value="$PROJECT_DIR$/../mmal/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/../mmal/src/main/resources/mmall.properties" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/controller/backend/UserManageController.java" />
-        <option value="$PROJECT_DIR$/../mmal/pom.xml" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Cart.java" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Category.java" />
@@ -189,6 +146,10 @@
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/common/TokenCache.java" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/util/FTPUtil.java" />
         <option value="$PROJECT_DIR$/../mmal/src/main/java/com/mmall/controller/portal/OrderController.java" />
+        <option value="$PROJECT_DIR$/../mmal/pom.xml" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/resources.beta/mmall.properties" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/resources.dev/mmall.properties" />
+        <option value="$PROJECT_DIR$/../mmal/src/main/resources.prod/mmall.properties" />
       </list>
     </option>
   </component>
@@ -221,6 +182,10 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="mmal Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -337,26 +302,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mmall" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mmal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mmal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mmall" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mmal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mmal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mmall" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -378,16 +323,17 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\mmal\src\main\resources.prod" />
+      <recent name="H:\mmal\src\main\resources.dev" />
+      <recent name="H:\mmal\src\main\resources.beta" />
+      <recent name="H:\mmal\src\main\webapp" />
+      <recent name="H:\mmal\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\mmal\src\main\java\com\mmall\util" />
       <recent name="H:\mmal\src\main\resources" />
       <recent name="H:\mmal\src\main\webapp\WEB-INF" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\mmal\src\main\webapp" />
-      <recent name="H:\mmal\src\main\resources" />
-      <recent name="H:\mmal\src\main\java\com\alipay\demo\trade" />
-      <recent name="H:\mmal\src\main\webapp\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -722,7 +668,7 @@
       <workItem from="1520081802891" duration="811000" />
       <workItem from="1520082707130" duration="699000" />
       <workItem from="1520138075743" duration="299000" />
-      <workItem from="1520138398978" duration="1902000" />
+      <workItem from="1520138398978" duration="3687000" />
     </task>
     <servers />
   </component>
@@ -744,7 +690,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127196000" />
+    <option name="totallyTimeSpent" value="128981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -757,13 +703,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29411766" sideWeight="0.5273605" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22326675" sideWeight="0.48497853" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27967098" sideWeight="0.4753219" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.152897" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31139836" sideWeight="0.4753219" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.152897" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14324035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -783,7 +728,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33372504" sideWeight="0.67113733" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20329025" sideWeight="0.68133044" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25264394" sideWeight="0.73122317" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27967098" sideWeight="0.5246781" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31139836" sideWeight="0.5246781" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26321974" sideWeight="0.48497853" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20922747" sideWeight="0.5833333" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18937768" sideWeight="0.41666666" order="2" side_tool="true" content_ui="tabs" />
@@ -844,55 +789,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/ShippingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/dao/CartMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources/mappers/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="165" column="21" lean-forward="false" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/vo/ShippingVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/vo/OrderVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/vo/OrderItemVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/controller/portal/ShippingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="64" column="35" lean-forward="false" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/vo/OrderProductVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -1044,14 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1452">
           <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mmal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="247" column="21" lean-forward="false" selection-start-line="247" selection-start-column="21" selection-end-line="247" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1223,7 +1111,71 @@
     <entry file="file://$PROJECT_DIR$/../mmal/src/main/java/com/mmall/pojo/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="313" column="10" lean-forward="false" selection-start-line="313" selection-start-column="10" selection-end-line="313" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources.beta/zfbinfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources.dev/zfbinfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources.prod/zfbinfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources.beta/mmall.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources.dev/mmall.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/src/main/resources.prod/mmall.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mmal/target/classes/mmall.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
