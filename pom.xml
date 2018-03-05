@@ -237,7 +237,7 @@
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-            <version>2.9.0</version>
+            <version>2.6.0</version>
         </dependency>
 
         <dependency>
@@ -246,6 +246,7 @@
             <version>1.16.18</version>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
 
     <build>
@@ -275,6 +276,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <!--开发/生产 环境隔离-->
         <resources>
             <resource>
               <directory>src/main/resources.${deploy.type}</directory>
