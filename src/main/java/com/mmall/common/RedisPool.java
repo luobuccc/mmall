@@ -46,8 +46,8 @@ public class RedisPool {
     }
 
     public static void main(String[] args) {
-        Jedis jedis=pool.getResource();
-        jedis.set("key","value");
+        Jedis jedis = pool.getResource();
+        jedis.set("key", "value");
         returnResource(jedis);
         pool.destroy();//临时调用，销毁所有连接
         System.out.println("program is end");
