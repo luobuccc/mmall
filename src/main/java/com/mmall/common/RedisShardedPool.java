@@ -28,6 +28,10 @@ public class RedisShardedPool {
     private static Boolean testOnBorrow = Boolean.parseBoolean(PropertiesUtil.getProperty("redis.test.borrow", "true"));//获取实例时进行测试
     private static Boolean testOnReturn = Boolean.parseBoolean(PropertiesUtil.getProperty("redis.test.return", "true"));//返回实例时进行测试
 
+    static {
+        initPool();
+    }
+
     private static void initPool() {
         JedisPoolConfig config = new JedisPoolConfig();
         config.setMaxTotal(maxTotal);
@@ -43,10 +47,6 @@ public class RedisShardedPool {
         jedisShardInfoList.add(info1);
         jedisShardInfoList.add(info2);
         pool = new ShardedJedisPool(config, jedisShardInfoList, Hashing.MURMUR_HASH, Sharded.DEFAULT_KEY_TAG_PATTERN);
-    }
-
-    static {
-        initPool();
     }
 
     public static ShardedJedis getJedis() {

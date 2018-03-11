@@ -36,24 +36,6 @@ public class ServerResponse<T> implements Serializable {
         this.msg = msg;
     }
 
-    @JsonIgnore
-    //不在序列化对象中
-    public boolean isSuccess() {
-        return this.status == ResponseCode.SUCCESS.getCode();
-    }
-
-    public int getStatus() {
-        return status;
-    }
-
-    public String getMsg() {
-        return msg;
-    }
-
-    public T getData() {
-        return data;
-    }
-
     public static <T> ServerResponse<T> createBySuccess() {
         return new ServerResponse<T>(ResponseCode.SUCCESS.getCode());
     }
@@ -80,5 +62,23 @@ public class ServerResponse<T> implements Serializable {
 
     public static <T> ServerResponse<T> createByErrorCodeMessage(int errorCode, String errorMessage) {
         return new ServerResponse<T>(errorCode, errorMessage);
+    }
+
+    @JsonIgnore
+    //不在序列化对象中
+    public boolean isSuccess() {
+        return this.status == ResponseCode.SUCCESS.getCode();
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public T getData() {
+        return data;
     }
 }

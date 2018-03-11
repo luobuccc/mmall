@@ -18,6 +18,10 @@ public class RedisPool {
     private static Boolean testOnBorrow = Boolean.parseBoolean(PropertiesUtil.getProperty("redis.test.borrow", "true"));//获取实例时进行测试
     private static Boolean testOnReturn = Boolean.parseBoolean(PropertiesUtil.getProperty("redis.test.return", "true"));//返回实例时进行测试
 
+    static {
+        initPool();
+    }
+
     private static void initPool() {
         JedisPoolConfig config = new JedisPoolConfig();
         config.setMaxTotal(maxTotal);
@@ -27,10 +31,6 @@ public class RedisPool {
         config.setTestOnReturn(testOnReturn);
         config.setBlockWhenExhausted(true);//连接耗尽时是否阻塞
         pool = new JedisPool(config, redisIp, redisPort, 1000 * 2);
-    }
-
-    static {
-        initPool();
     }
 
     public static Jedis getJedis() {
