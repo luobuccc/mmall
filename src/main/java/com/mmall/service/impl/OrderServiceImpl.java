@@ -44,26 +44,20 @@ import java.util.*;
 @Service("iOrderService")
 @Slf4j
 public class OrderServiceImpl implements IOrderService {
-    //private static Logger logger = LoggerFactory.getLogger(OrderServiceImpl.class);
-    private String callbackHost = "http://www.test-notify-url.com";
-
     @Autowired
     OrderMapper orderMapper;
-
     @Autowired
     OrderItemMapper orderItemMapper;
-
     @Autowired
     PayInfoMapper payInfoMapper;
-
     @Autowired
     CartMapper cartMapper;
-
     @Autowired
     ProductMapper productMapper;
-
     @Autowired
     ShippingMapper shippingMapper;
+    //private static Logger logger = LoggerFactory.getLogger(OrderServiceImpl.class);
+    private String callbackHost = "http://www.test-notify-url.com";
 
     @Override
     public ServerResponse pay(Long orderNo, Integer userId, String path) {

@@ -31,6 +31,14 @@ public class FTPUtil {
         this.pwd = pwd;
     }
 
+    public static boolean uploadFile(List<File> fileList) throws IOException {
+        FTPUtil ftpUtil = new FTPUtil(ftpIp, 21, ftpUser, ftpPass);
+        log.info("开始连接ftp");
+        boolean result = ftpUtil.uploadFile("img", fileList);
+        log.info("结束上传，上传结果{}", result);
+        return result;
+    }
+
     public String getIp() {
         return ip;
     }
@@ -69,14 +77,6 @@ public class FTPUtil {
 
     public void setFtpClient(FTPClient ftpClient) {
         this.ftpClient = ftpClient;
-    }
-
-    public static boolean uploadFile(List<File> fileList) throws IOException {
-        FTPUtil ftpUtil = new FTPUtil(ftpIp, 21, ftpUser, ftpPass);
-        log.info("开始连接ftp");
-        boolean result = ftpUtil.uploadFile("img", fileList);
-        log.info("结束上传，上传结果{}", result);
-        return result;
     }
 
     private boolean uploadFile(String remotePath, List<File> fileList) throws IOException {

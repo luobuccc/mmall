@@ -63,18 +63,6 @@ public class Main {
                 .setFormat("json").build();
     }
 
-    // 简单打印应答
-    private void dumpResponse(AlipayResponse response) {
-        if (response != null) {
-            log.info(String.format("code:%s, msg:%s", response.getCode(), response.getMsg()));
-            if (StringUtils.isNotEmpty(response.getSubCode())) {
-                log.info(String.format("subCode:%s, subMsg:%s", response.getSubCode(),
-                        response.getSubMsg()));
-            }
-            log.info("body:" + response.getBody());
-        }
-    }
-
     public static void main(String[] args) {
         Main main = new Main();
 
@@ -98,6 +86,18 @@ public class Main {
 
         // 测试当面付2.0生成支付二维码
         main.test_trade_precreate();
+    }
+
+    // 简单打印应答
+    private void dumpResponse(AlipayResponse response) {
+        if (response != null) {
+            log.info(String.format("code:%s, msg:%s", response.getCode(), response.getMsg()));
+            if (StringUtils.isNotEmpty(response.getSubCode())) {
+                log.info(String.format("subCode:%s, subMsg:%s", response.getSubCode(),
+                        response.getSubMsg()));
+            }
+            log.info("body:" + response.getBody());
+        }
     }
 
     // 测试系统商交易保障调度

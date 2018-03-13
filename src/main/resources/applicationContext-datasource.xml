@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:tx="http://www.springframework.org/schema/tx"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
      http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
      http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
-
-    <context:component-scan base-package="com.mmall" annotation-config="true"/>
 
     <bean id="propertyConfigurer"
           class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
@@ -77,10 +75,10 @@
     </bean>
 
     <!-- 使用@Transactional进行声明式事务管理需要声明下面这行 -->
-    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
+    <!--<tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>-->
     <!-- 事务管理 -->
-    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource"/>
-        <property name="rollbackOnCommitFailure" value="true"/>
-    </bean>
+    <!--<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+        <!--<property name="dataSource" ref="dataSource"/>-->
+        <!--<property name="rollbackOnCommitFailure" value="true"/>-->
+    <!--</bean>-->
 </beans>

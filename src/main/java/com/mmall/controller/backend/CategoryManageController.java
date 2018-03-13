@@ -7,7 +7,7 @@ import com.mmall.service.ICategoryService;
 import com.mmall.service.IUserService;
 import com.mmall.util.CookieUtil;
 import com.mmall.util.JsonUtil;
-import com.mmall.util.RedisPoolUtil;
+import com.mmall.util.RedisSharedPoolUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -34,7 +34,7 @@ public class CategoryManageController {
     /**
      * 添加商品类别
      *
-     * @param session
+     * @param httpServletRequest
      * @param categoryName
      * @param parentId
      * @return
@@ -46,7 +46,7 @@ public class CategoryManageController {
         if (StringUtils.isEmpty(loginToken)) {
             return ServerResponse.createByErrorMessage("用户未登录，无法获取信息");
         }
-        String userJsonStr = RedisPoolUtil.get(loginToken);
+        String userJsonStr = RedisSharedPoolUtil.get(loginToken);
         User user = JsonUtil.string2Obj(userJsonStr, User.class);
         if (user == null) {
             return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(), "用户未登录");
@@ -61,7 +61,7 @@ public class CategoryManageController {
     /**
      * 修改类别名称
      *
-     * @param session
+     * @param httpServletRequest
      * @param categoryId
      * @param categoryName
      * @return
@@ -73,7 +73,7 @@ public class CategoryManageController {
         if (StringUtils.isEmpty(loginToken)) {
             return ServerResponse.createByErrorMessage("用户未登录，无法获取信息");
         }
-        String userJsonStr = RedisPoolUtil.get(loginToken);
+        String userJsonStr = RedisSharedPoolUtil.get(loginToken);
         User user = JsonUtil.string2Obj(userJsonStr, User.class);
         if (user == null) {
             return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(), "用户未登录");
@@ -88,7 +88,7 @@ public class CategoryManageController {
     /**
      * 获取商品子类
      *
-     * @param session
+     * @param httpServletRequest
      * @param categoryId
      * @return
      */
@@ -99,7 +99,7 @@ public class CategoryManageController {
         if (StringUtils.isEmpty(loginToken)) {
             return ServerResponse.createByErrorMessage("用户未登录，无法获取信息");
         }
-        String userJsonStr = RedisPoolUtil.get(loginToken);
+        String userJsonStr = RedisSharedPoolUtil.get(loginToken);
         User user = JsonUtil.string2Obj(userJsonStr, User.class);
         if (user == null) {
             return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(), "用户未登录");
@@ -114,7 +114,7 @@ public class CategoryManageController {
     /**
      * 获取商品所有子类
      *
-     * @param session
+     * @param httpServletRequest
      * @param categoryId
      * @return
      */
@@ -125,7 +125,7 @@ public class CategoryManageController {
         if (StringUtils.isEmpty(loginToken)) {
             return ServerResponse.createByErrorMessage("用户未登录，无法获取信息");
         }
-        String userJsonStr = RedisPoolUtil.get(loginToken);
+        String userJsonStr = RedisSharedPoolUtil.get(loginToken);
         User user = JsonUtil.string2Obj(userJsonStr, User.class);
         if (user == null) {
             return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(), "用户未登录");
