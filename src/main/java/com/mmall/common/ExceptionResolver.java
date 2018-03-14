@@ -17,11 +17,11 @@ import javax.servlet.http.HttpServletResponse;
 public class ExceptionResolver implements HandlerExceptionResolver {
     @Override
     public ModelAndView resolveException(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, Exception e) {
-        log.error("{} Exception",httpServletRequest.getRequestURI(),e);
-        ModelAndView modelAndView=new ModelAndView(new MappingJacksonJsonView());
-        modelAndView.addObject("status",ResponseCode.ERROR.getCode());
-        modelAndView.addObject("msg","接口异常");
-        modelAndView.addObject("data",e.toString());
+        log.error("{} Exception", httpServletRequest.getRequestURI(), e);
+        ModelAndView modelAndView = new ModelAndView(new MappingJacksonJsonView());
+        modelAndView.addObject("status", ResponseCode.ERROR.getCode());
+        modelAndView.addObject("msg", "接口异常");
+        modelAndView.addObject("data", e.toString());
         return modelAndView;
     }
 }

@@ -43,6 +43,7 @@ public class Const {
 
         private int code;
         private String value;
+
         OrderStatusEnum(int code, String value) {
             this.value = value;
             this.code = code;
@@ -72,6 +73,7 @@ public class Const {
 
         private int code;
         private String value;
+
         PayPlatformEnum(int code, String value) {
             this.value = value;
             this.code = code;
@@ -92,6 +94,7 @@ public class Const {
 
         private int code;
         private String value;
+
         PaymentTypeEnum(int code, String value) {
             this.value = value;
             this.code = code;
