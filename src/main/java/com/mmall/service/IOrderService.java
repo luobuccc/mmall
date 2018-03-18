@@ -33,4 +33,7 @@ public interface IOrderService {
     ServerResponse<PageInfo> manageSearch(Long orderNo, int pageNum, int pageSize);
 
     ServerResponse<String> manageSendGoods(Long orderNo);
+
+    //hour个小时以内，未支付订单自动关闭
+    void closeOrder(int hour);
 }

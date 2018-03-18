@@ -31,7 +31,7 @@ public class ProductController {
         return iProductService.getProductDetail(productId);
     }
 
-    @RequestMapping(value = "/{productId}",method = RequestMethod.GET)
+    @RequestMapping(value = "/{productId}", method = RequestMethod.GET)
     @ResponseBody
     public ServerResponse<ProductDetailVo> detailRESTful(@PathVariable Integer productId) {
         return iProductService.getProductDetail(productId);
@@ -57,21 +57,21 @@ public class ProductController {
         return iProductService.getProductByKeywordCategory(keyword, categoryId, pageNum, pageSize, orderBy);
     }
 
-    @RequestMapping(value = "/{keywprd}/{categoryId}/{pageNum}/{pageSize}/{orderBy}",method = RequestMethod.GET)
+    @RequestMapping(value = "/{keywprd}/{categoryId}/{pageNum}/{pageSize}/{orderBy}", method = RequestMethod.GET)
     @ResponseBody
     public ServerResponse<PageInfo> listRESTful(@PathVariable(value = "keyword") String keyword,
-                                         @PathVariable(value = "categoryId") Integer categoryId,
-                                         @PathVariable(value = "pageNum") Integer pageNum,
-                                         @PathVariable(value = "pageSize") Integer pageSize,
-                                         @PathVariable(value = "orderBy") String orderBy) {
-        if(pageNum==null){
-            pageNum=1;
+                                                @PathVariable(value = "categoryId") Integer categoryId,
+                                                @PathVariable(value = "pageNum") Integer pageNum,
+                                                @PathVariable(value = "pageSize") Integer pageSize,
+                                                @PathVariable(value = "orderBy") String orderBy) {
+        if (pageNum == null) {
+            pageNum = 1;
         }
-        if(pageSize==null){
-            pageNum=10;
+        if (pageSize == null) {
+            pageNum = 10;
         }
-        if(StringUtils.isBlank(orderBy)){
-            orderBy="price_asc";
+        if (StringUtils.isBlank(orderBy)) {
+            orderBy = "price_asc";
         }
         return iProductService.getProductByKeywordCategory(keyword, categoryId, pageNum, pageSize, orderBy);
     }
