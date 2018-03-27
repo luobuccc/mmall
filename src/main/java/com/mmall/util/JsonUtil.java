@@ -97,7 +97,6 @@ public class JsonUtil {
         user.setEmail("1@qq.com");
         String user1JsonPretty = JsonUtil.obj2StringPretty(user);
         log.info("user1Json:{}", user1JsonPretty);
-
         //User u2 = new User();
         //u2.setId(2);
         //u2.setEmail("2@qq.com");

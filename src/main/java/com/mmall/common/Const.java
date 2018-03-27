@@ -43,6 +43,7 @@ public class Const {
 
         private int code;
         private String value;
+
         OrderStatusEnum(int code, String value) {
             this.value = value;
             this.code = code;
@@ -69,9 +70,9 @@ public class Const {
     public enum PayPlatformEnum {
         ALIPAY(1, "支付宝");
 
-
         private int code;
         private String value;
+
         PayPlatformEnum(int code, String value) {
             this.value = value;
             this.code = code;
@@ -89,9 +90,9 @@ public class Const {
     public enum PaymentTypeEnum {
         ONLINE_PAY(1, "在线支付");
 
-
         private int code;
         private String value;
+
         PaymentTypeEnum(int code, String value) {
             this.value = value;
             this.code = code;
@@ -140,5 +141,9 @@ public class Const {
         String TRADE_STATUS_TRADE_SUCCESS = "TRADE_SUCCESS";
         String RESPONSE_SUCCESS = "success";
         String RESPONSE_FAILED = "failed";
+    }
+
+    public interface REDIS_LOCK {
+        String CLOSE_ORDER_TASK_LOCK = "CLOSE_ORDER_TASK_LOCK";
     }
 }
