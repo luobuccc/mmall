@@ -70,7 +70,6 @@ public class Const {
     public enum PayPlatformEnum {
         ALIPAY(1, "支付宝");
 
-
         private int code;
         private String value;
 
@@ -90,7 +89,6 @@ public class Const {
 
     public enum PaymentTypeEnum {
         ONLINE_PAY(1, "在线支付");
-
 
         private int code;
         private String value;

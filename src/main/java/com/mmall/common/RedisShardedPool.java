@@ -18,10 +18,8 @@ public class RedisShardedPool {
     private static ShardedJedisPool pool;//Sharded连接池
     private static String redis1Ip = PropertiesUtil.getProperty("redis1.ip");
     private static Integer redis1Port = Integer.parseInt(PropertiesUtil.getProperty("redis1.port", "6379"));
-
     private static String redis2Ip = PropertiesUtil.getProperty("redis2.ip");
     private static Integer redis2Port = Integer.parseInt(PropertiesUtil.getProperty("redis2.port", "6380"));
-
     private static Integer maxTotal = Integer.parseInt(PropertiesUtil.getProperty("redis.max.total", "20"));//最大连接数
     private static Integer maxIdle = Integer.parseInt(PropertiesUtil.getProperty("redis.max.idle", "10"));//最大空闲实例数
     private static Integer minIdle = Integer.parseInt(PropertiesUtil.getProperty("redis.min.idle", "2"));
