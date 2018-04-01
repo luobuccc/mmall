@@ -20,6 +20,7 @@ target/
 *.iml
 *.iws
 *.ipr
+workspace.xml
 
 #temp file
 *.log
