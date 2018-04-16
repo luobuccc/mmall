@@ -48,7 +48,7 @@
         <appender-ref ref="console"/>
     </logger>
 
-    <!-- geelynote mybatis log 日志 -->
+    <!-- mybatis log 日志 -->
 
     <logger name="com.mmall.dao" level="DEBUG"/>
     <!--<logger name="com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate" level="DEBUG" >-->

@@ -12,8 +12,6 @@ import java.util.Properties;
  */
 @Slf4j
 public class PropertiesUtil {
-
-    //private static Logger logger = LoggerFactory.getLogger(PropertiesUtil.class);
     private static Properties props;
 
     static {

@@ -17,7 +17,6 @@ import java.text.SimpleDateFormat;
  */
 @Slf4j
 public class JsonUtil {
-
     private static ObjectMapper objectMapper = new ObjectMapper();
 
     static {

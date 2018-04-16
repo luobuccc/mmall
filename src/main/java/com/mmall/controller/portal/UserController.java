@@ -44,7 +44,6 @@ public class UserController {
             CookieUtil.writeLoginToken(httpServletResponse, session.getId());
             RedisSharedPoolUtil.setEx(session.getId(), JsonUtil.obj2String(response.getData()), Const.RedisCacheExtime.REDIS_SESSION_EXTIME);
         }
-        //service-->mybatis
         return response;
     }
 

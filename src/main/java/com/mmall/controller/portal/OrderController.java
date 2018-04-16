@@ -117,7 +117,7 @@ public class OrderController {
             }
             boolean alipayRSACheckedV2 = AlipaySignature.rsaCheckV2(params, Configs.getAlipayPublicKey(), "utf-8", Configs.getSignType());
             if (!alipayRSACheckedV2) {
-                return ServerResponse.createByErrorMessage("非法请求，验证不通过");
+                return ServerResponse.createByErrorMessage("非法请求，签名验证不通过");
             }
         } catch (AlipayApiException e) {
             log.error("支付宝验证回调异常", e);

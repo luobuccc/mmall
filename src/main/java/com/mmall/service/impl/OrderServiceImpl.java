@@ -57,7 +57,7 @@ public class OrderServiceImpl implements IOrderService {
     ProductMapper productMapper;
     @Autowired
     ShippingMapper shippingMapper;
-    //private static Logger logger = LoggerFactory.getLogger(OrderServiceImpl.class);
+
     private String callbackHost = "http://www.test-notify-url.com";
 
     @Override
