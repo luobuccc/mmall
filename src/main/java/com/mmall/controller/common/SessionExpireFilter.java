@@ -15,6 +15,7 @@ import java.io.IOException;
 /**
  * Created by 53254 on 2018/3/6 15:41 /mmal
  */
+//用户登录访问后延长其redis记录时间
 public class SessionExpireFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
